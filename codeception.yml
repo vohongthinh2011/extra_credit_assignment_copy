@@ -1,0 +1,28 @@
+actor: Tester
+paths:
+    tests: tests
+    log: tests/_output
+    data: tests/_data
+    helpers: tests/_support
+settings:
+    bootstrap: _bootstrap.php
+    colors: true
+    memory_limit: 1024M
+coverage:
+    #url of file which includes c3 router.
+    c3_url: 'http://127.0.0.1:8000/index-test.php/'
+    enabled: true
+    remote: true
+    include:
+        - app/*
+    exclude:
+        - app/cache/*
+
+modules:
+    config:
+         Db:
+            dsn: 'mysql:host=localhost;dbname=cinemaphile'
+            user: 'root'
+            password: 'lij135jil'
+            dump: tests/_data/dump.sql
+

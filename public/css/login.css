@@ -1,0 +1,119 @@
+
+body {
+  background-color: #ffffff;
+}
+
+h1{
+	color: #ff8000;
+}
+
+.container{
+    position: relative;
+    border-collapse: separate;
+    width: 550px;
+/*	margin: 16px auto;*/
+	font-size: 16px;
+	margin-top: 230px;
+	box-sizing: border-box;
+	display: block;
+	padding: 12px;
+}
+
+p{
+	color: darkgrey;
+}
+
+/*.btn,
+.btn-primary,
+.btn-block{
+	background-color: #f4c6a2;
+	border-color: #f4c6a2;
+}
+
+.btn:hover,
+.btn-primary:hover,
+.btn-block:hover,
+.btn:focus,
+.btn-primary:focus,
+.btn-block:focus,
+.btn:active,
+.btn-primary:active,
+.btn-block:active,
+.btn.active,
+.btn-primary.active,
+.btn-block.active{
+	background-color: #f4c6a2;
+	border-color: #f4c6a2;
+}*/
+
+.submitButton button{
+
+  background-color: #0099ff;
+  border:0;
+  color:#ffffff;
+  padding:7px;
+  font-size:20px;
+  width:360px;
+  margin:20px auto;
+  display:block;
+  cursor:pointer;
+}
+
+.form-group [type=email]{
+	display:block;
+  width:360px;
+  margin:20px auto;
+  padding:15px;
+  background:rgba(0,0,0,0.7);
+  color:#fff;
+  border-color: darkgrey;
+}
+
+.form-group [type=password]{
+	display:block;
+  width:360px;
+  margin:20px auto;
+  padding:15px;
+  background:rgba(0,0,0,0.7);
+  color:#fff;
+  border-color: darkgrey;
+}
+
+.alert p{
+	color: red;
+}
+
+.form-group p{
+	color: darkgrey;
+}
+.form-group{
+	width: 400px;
+}
+
+.login-userName{
+	width: 360px;
+	margin: 16px auto;
+	font-size: 16px;
+}
+
+.login-password{
+	width: 360px;
+	margin: 16px auto;
+	font-size: 16px;
+}
+
+.submitButton{
+	width: 360px;
+	margin: 16px auto;
+	font-size: 16px;
+	background-color: red;
+}
+
+.signUpNewAcc{
+	width: 360px;
+	margin: 16px auto;
+	font-size: 16px;
+}
+
+
+
